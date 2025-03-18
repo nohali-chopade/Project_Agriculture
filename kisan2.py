@@ -8,7 +8,7 @@ genai.configure(api_key="AIzaSyA7tnL0yYx08hGAR56qYU1_JfI-qnjvTB4")
 # Streamlit layout
 c1, c2 = st.columns([30, 50])
 c2.title("AI-Powered Crop Selection and Rotation Planner")
-c1.image("C:/Users/KALPESH/Downloads/logo-removebg-preview.png")
+c1.image("logo.png")
 
 def create_gen_model():
     return genai.GenerativeModel('models/gemini-1.5-pro')
