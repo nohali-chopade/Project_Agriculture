@@ -5,7 +5,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyAZg8o4JMY_84zyHsHhVbsDeFg46tmA3CE")
 
 c1, c2 = st.columns([30, 50])
-c2.title("AI-Powered Crop Selection and Rotation Planner")
+c2.title("AI-Powered Crop Yield Prediction")
 c1.image("logo.png")
 
 
