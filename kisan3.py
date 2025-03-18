@@ -4,14 +4,16 @@ import google.generativeai as genai
 # Configure the Gemini API key
 genai.configure(api_key="AIzaSyAZg8o4JMY_84zyHsHhVbsDeFg46tmA3CE")
 
-# Streamlit layout
-st.title("AI-Powered Crop Yield Prediction")
-st.write("Predict crop yields based on historical data, climate conditions, and crop state.")
+c1, c2 = st.columns([30, 50])
+c2.title("AI-Powered Crop Selection and Rotation Planner")
+c1.image("logo.png")
+
 
 def create_gen_model():
     return genai.GenerativeModel('models/gemini-1.5-pro')
 
 def main():
+    st.write("Predict crop yields based on historical data, climate conditions, and crop state.")
     # Inputs for historical data
     crop_name = st.text_input("Enter Crop Name:", help="E.g., Wheat, Rice, Maize")
     planting_date = st.date_input("Planting Date:", help="Select the planting date.")
