@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the Gemini API key
-genai.configure(api_key="AIzaSyCwBC1Q0MG1d2lf1pulXxfXTmFDrlCkJi0")
+genai.configure(api_key="AIzaSyBTWJ3mKqDU40BNCAo3UZHhdOeGL_gmn74")
 
 # Streamlit layout
 c1, c2 = st.columns([30, 50])
