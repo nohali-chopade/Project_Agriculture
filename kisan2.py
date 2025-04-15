@@ -3,7 +3,7 @@ import google.generativeai as genai
 from datetime import date
 
 # Configure the Gemini API key
-genai.configure(api_key="AIzaSyA7tnL0yYx08hGAR56qYU1_JfI-qnjvTB4")
+genai.configure(api_key="AIzaSyBTWJ3mKqDU40BNCAo3UZHhdOeGL_gmn74")
 
 # Streamlit layout
 c1, c2 = st.columns([30, 50])
