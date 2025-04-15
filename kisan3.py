@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the Gemini API key
-genai.configure(api_key="AIzaSyAZg8o4JMY_84zyHsHhVbsDeFg46tmA3CE")
+genai.configure(api_key="AIzaSyBTWJ3mKqDU40BNCAo3UZHhdOeGL_gmn74")
 
 c1, c2 = st.columns([30, 50])
 c2.title("AI-Powered Crop Yield Prediction")
